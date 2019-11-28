@@ -24,9 +24,9 @@ public class JavaStaticClass {
 		System.out.println(num1.getFinalAmount());
 		myStatfunction printResponse = new myStatfunction();
 		
-		printCount();
+		printCount(); // calls the printCount method
 		for(int i = 0; i < 10; i++) {
-			myStatfunction count1 = new myStatfunction();
+			myStatfunction count1 = new myStatfunction(); // creates an instance of the myStatfunction class
 			
 		}
 		
