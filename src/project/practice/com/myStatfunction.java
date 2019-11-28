@@ -2,14 +2,18 @@ package project.practice.com;
 
 public class myStatfunction {
 	
+	private static int instanceCount = 0;
 	
 	
-	public static void printInput() {
-		
-		
-		System.out.println("thank you very much");
+	public myStatfunction() {
+		this.instanceCount++;
 		
 	}
 	
+	
+	public static int getInstanceCount() {
+		return instanceCount;
+	}
+	}
+	
 
-}
